@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Jess Viswa – Portfolio</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- NAV -->
+  <header>
+    <nav class="nav container">
+      <a href="images/jv.png" class="logo">Jess Viswa</a>
+      
+      <ul class="nav_menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="nav__toggle" aria-label="Toggle menu">☰</button>
+      <button class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+    </nav>
+  </header>
+
+  <!-- HERO -->
+  <section id="hero" class="hero container">
+    <h1 class="fade-in">Hello, I’m Jess Viswa</h1>
+    <p class="fade-in delay-1">Entry-level Front-End Developer with hands-on developing responsive web applications using
+React.js, HTML, CSS, and JavaScript.</p>
+    <a href="#projects" class="btn fade-in delay-2">See my work</a>
+    
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="about container fade-in">
+    <h2>About Me</h2>
+    <p>I’m a web developer with a passion for crafting clean, responsive experiences. When I’m not coding, I love hiking and <a href="https://viswagraphy.blogspot.com/"> photography </a>.</p>
+  </section>
+
+  <!-- PROJECTS -->
+   
+  <section id="projects" class="projects container fade-up">
+  <h2>Projects</h2>
+  <div class="grid">
+    <article class="card fade-up">
+        <img src="images/ig.PNG" alt="Project 1 Screenshot">
+        <div class="card__content">
+          <h3>Project One</h3>
+          <p>Image Gallery .</p>
+          <a href="https://github.com/Jessviswa1/Image-gallery" target="_blank" class="card__btn">View Code</a>
+        </div>
+      </article>
+
+      <article class="card fade-up delay-1">
+        <img src="images/bc.PNG" alt="Project 2 Screenshot">
+        <div class="card__content">
+          <h3>Project Two</h3>
+          <p> Calculator.</p>
+          <a href="https://github.com/Jessviswa1/basic-calculator" target="_blank" class="card__btn">View Code</a>
+        </div>
+      </article>
+      <article class="card fade-up delay-2">
+      <img src="images/tl.PNG" alt="Project 3 Screenshot">
+      <div class="card__content">
+        <h3>Project Three</h3>
+        <p>To-Do List App.</p>
+        <a href="https://github.com/Jessviswa1/todo-list" target="_blank" class="card__btn">View Code</a>
+      </div>
+    </article>
+
+    <article class="card fade-up delay-3">
+      <img src="images/weather.PNG" alt="Project 4 Screenshot">
+      <div class="card__content">
+        <h3>Project Four</h3>
+        <p>Weather App.</p>
+        <a href="https://github.com/Jessviswa1/weather-app" target="_blank" class="card__btn">View Code</a>
+      </div>
+    </article>
+    <article class="card fade-up delay-4">
+  <img src="images/portfolio.PNG" alt="Portfolio Website Screenshot">
+  <div class="card__content">
+    <h3>Portfolio Website</h3>
+    <p>My personal portfolio built with HTML, CSS, and JavaScript.</p>
+    <a href="https://github.com/Jessviswa1/portfolio" target="_blank" class="card__btn">View Code</a>
+    <a href="https://your-portfolio-demo-link.com" target="_blank" class="card__btn" style="margin-left:10px;">Live Demo</a>
+  </div>
+</article>
+<article class="card fade-up delay-5">
+  <img src="images/ecommerce.png" alt="E-commerce Website Screenshot">
+  <div class="card__content">
+    <h3>E-commerce Website</h3>
+    <p>Fully responsive e-commerce site with product catalog, shopping cart, and secure checkout.</p>
+    <a href="https://github.com/yourusername/ecommerce-project" target="_blank" class="card__btn">View Code</a>
+    <a href="https://your-ecommerce-demo-link.com" target="_blank" class="card__btn" style="margin-left:10px;">Live Demo</a>
+  </div>
+</article>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="skills container fade-in">
+    <h2>Skills</h2>
+    <ul class="skills__list">
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li> React</li>
+      <li> Node.js</li>
+      <li> Git & GitHub</li>
+    </ul>
+  </section>
+
+  <!-- CONTACT -->
+  <section  id="contact" class="contact container fade-in">
+    <h2>Get in Touch</h2>
+    <p>Interested in working together? Shoot me an email or fill out the form below.</p>
+    <form action="mailto:viswajess2@gmail.com" method="POST" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required/>
+      <input type="email" name="email" placeholder="Your Email" required/>
+      <textarea name="message" rows="4" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer container">
+    <p>© 2025 Jess viswa</p>
+    <div class="social">
+      <a href="https://github.com/Jessviswa1" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/jess-viswa" target="_blank">LinkedIn</a>
+      <a href="https://viswagraphy.blogspot.com" target="_blank">photography Blog</a>
+      <!-- more… -->
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
